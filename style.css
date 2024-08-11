@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: #FFFAFA;
+    font-family: 'Ranade', sans-serif;
+}
+/*_________________________heaader______________________*/
+
+.nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #202020;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.2);
+    gap: 30px;
+    color: #FFFAFA;
+}
+.nav a{
+    text-decoration: none;
+    font-family:sans-serif;
+    letter-spacing: 2px;
+}
+a:visited {
+    color: inherit; 
+}
+.nav img{
+    width: 70px;
+    filter: drop-shadow(1px 1px 20px rgba(0, 0, 0, 0.7));
+    cursor: pointer;
+}
+/*_______________________________pagina 01_________________________*/
+
+.container-1{
+    max-width: 100vw;
+    min-height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.container-1 img{
+    height: 600px;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+h1{
+    line-height: 0.9;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+
+}
+.mr{
+    font-family: 'Melodrama', serif;
+    font-size: 165px;
+}
+.frase{
+    color: #989898;
+}
+
+/*______________________________pagina 02_________________________________*/
+
+.container-2{
+    max-width: 100vw;
+    height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.container-2 img{
+    height: 600px;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+
+/*______________________pagina 03_________________________*/
+image-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image-container img {
+    width: 300px;
+    transition: transform 0.3s, op	acity 0.3s;
+    opacity: 1;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  .image-container:hover img:not(:hover) {
+    opacity: 0.3;
+  }
+
+/*_________________________________ footer ____________________________________________*/
+footer {
+    background-color: #202020;
+    color: #ECCEB4;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+footer a {
+    color: #ECCEB4;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer p{
+    color: #ECCEB4;
+    font-weight: 200;
+}
+
+.icon-footer {
+    margin-top: 15px;
+    width: 30px;
+}
+
+
+/* ________________________________BACKGROUND______________________________________ */
+
+.img-back{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+    z-index: -1;
+}
+.img-back img{
+    width: 1920px;
+}
